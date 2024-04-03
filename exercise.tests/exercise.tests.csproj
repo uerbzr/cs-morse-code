@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\exercise.morseengine\exercise.morseengine.csproj" />
+    <ProjectReference Include="..\exercise.morseengine.core\exercise.morseengine.core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

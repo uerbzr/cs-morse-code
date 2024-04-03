@@ -51,5 +51,10 @@ public class MorseCodeEngine
         return false;
 
     }
+    public bool IsSentance(string cipher)
+    {
+        cipher.Contains()
+        return false;
+    }
 
 }

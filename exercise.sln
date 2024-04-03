@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.morseengine", "exercise.morseengine\exercise.morseengine.csproj", "{2BE01B52-230D-4C5F-98CB-D8ED599196FD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.tests", "exercise.tests\exercise.tests.csproj", "{0A397EC5-1624-4973-9CBF-EE4A523CAC26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.wwwapi", "exercise.wwwapi\exercise.wwwapi.csproj", "{65543144-5150-4EF8-8006-AE723DD3EF7F}"
@@ -15,16 +13,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.morseengine.chat", "exercise.morseengine.chat\exercise.morseengine.chat.csproj", "{DFD1BA5D-6F17-4E01-AEB2-74CB0D0DF9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.morseengine.core", "exercise.morseengine.core\exercise.morseengine.core.csproj", "{EDDAF7E6-3478-4C27-B354-A01B73980F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercise.morseengine.models", "exercise.morseengine.models\exercise.morseengine.models.csproj", "{BB02DF83-A486-4809-9CC7-2D5484255901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2BE01B52-230D-4C5F-98CB-D8ED599196FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BE01B52-230D-4C5F-98CB-D8ED599196FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BE01B52-230D-4C5F-98CB-D8ED599196FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BE01B52-230D-4C5F-98CB-D8ED599196FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0A397EC5-1624-4973-9CBF-EE4A523CAC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0A397EC5-1624-4973-9CBF-EE4A523CAC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A397EC5-1624-4973-9CBF-EE4A523CAC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +33,18 @@ Global
 		{65543144-5150-4EF8-8006-AE723DD3EF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65543144-5150-4EF8-8006-AE723DD3EF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65543144-5150-4EF8-8006-AE723DD3EF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD1BA5D-6F17-4E01-AEB2-74CB0D0DF9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD1BA5D-6F17-4E01-AEB2-74CB0D0DF9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD1BA5D-6F17-4E01-AEB2-74CB0D0DF9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD1BA5D-6F17-4E01-AEB2-74CB0D0DF9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDAF7E6-3478-4C27-B354-A01B73980F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDAF7E6-3478-4C27-B354-A01B73980F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDAF7E6-3478-4C27-B354-A01B73980F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDAF7E6-3478-4C27-B354-A01B73980F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB02DF83-A486-4809-9CC7-2D5484255901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB02DF83-A486-4809-9CC7-2D5484255901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB02DF83-A486-4809-9CC7-2D5484255901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB02DF83-A486-4809-9CC7-2D5484255901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
